@@ -9,3 +9,6 @@ def sav_to_pandas(fn):
                              to_data_frame=True)
     py_df = pandas2ri.ri2py(r_df)
     return py_df
+
+def print_version():
+    print('0.0.1')
